@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>IvIgit</title>
   </head>
-  <body>
+  <body class="body-dark bg-dark">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <img
@@ -47,8 +47,57 @@
             </li>
           </ul>
         </div>
+        <div class="d-flex">
+          <!-- Added a d-flex container for the buttons -->
+          <a class="btn btn-primary me-2" href="#">Sign In</a>
+          <a class="btn btn-secondary" href="#">Sign Up</a>
+        </div>
       </div>
     </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://thumbs.dfs.ivi.ru/storage38/contents/5/5/25c052e23249d877b262bd48627512.jpg/1216x370/?q=60"
+            class="d-block w-100"
+            alt="Slide 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://thumbs.dfs.ivi.ru/storage15/contents/e/f/aafd9d23ce866a26af639fbd2f3f48.jpg/1216x370/?q=60"
+            class="d-block w-100"
+            alt="Slide 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://thumbs.dfs.ivi.ru/storage8/contents/4/7/259676cb2fba49b73a2005b59a6b19.jpg/1216x370/?q=60"
+            class="d-block w-100"
+            alt="Slide 3"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExample"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExample"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
 
     <!-- JS Bootstrap -->
     <script
