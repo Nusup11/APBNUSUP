@@ -1,8 +1,57 @@
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: right;
+.end {
+  width: 100%;
+  height: 300px;
+  background-color: #1d2830;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end__container {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#end__info_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.end__title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#end__img {
+  padding-bottom: 20px;
+}
+
+.footer__container {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d2830;
+  color: #ffffff;
+}
+
+.footer_text {
+  margin: 0 0 0 50px;
+}
+
+.footer__logo {
+  display: flex;
+  cursor: pointer;
+}
+
+.footer__logo img {
+  padding: 0 15px;
 }
 
 /* Add this to your CSS file or style section */
@@ -19,5 +68,5 @@ footer {
 
 .accordion-button {
   background-color: #333; /* Change this color as needed */
-  color: #fff; /* Text color on dark background */
+  color: #0a0000; /* Text color on dark background */
 }
