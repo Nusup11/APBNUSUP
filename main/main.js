@@ -1,1 +1,1 @@
-const API = "http://localhost:8000/ivi";
+const API = "http://localhost:8000/";
