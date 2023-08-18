@@ -47,11 +47,6 @@
             </li>
           </ul>
         </div>
-        <form class="d-flex mx-2">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchInput">
-          <button class="btn btn-outline-success" type="button" id="searchButton">Search</button>
-        </form>
-
         <div class="d-flex">
           <!-- Added a d-flex container for the buttons -->
           <button
@@ -72,7 +67,62 @@
       </div>
     </nav>
 
-  
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed bg-dark"
+            id="btnOpenForm"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Add movie +
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <input
+              class="form-control me-2 bg-dark text-light"
+              id="inpName"
+              placeholder="Film"
+              type="text"
+            />
+            <input
+              class="form-control me-2 bg-dark text-light"
+              id="inpDesc"
+              placeholder="Description"
+              type="text"
+            />
+            <input
+              class="form-control me-2 bg-dark text-light"
+              id="inpImage"
+              placeholder="Image"
+              type="text"
+            />
+            <input
+              class="form-control me-2 bg-dark text-light"
+              id="inpPrice"
+              placeholder="Price"
+              type="text"
+            />
+            <button
+              class="btn btn-outline-success text-success"
+              id="btnAdd"
+              type="submit"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section
       class="container mt-5 mx-auto d-flex flex-wrap align-content-center"
@@ -191,40 +241,42 @@
     <div class="card bg-dark m-2" style="width: 14rem; ">
       <img class="card-img-top" src="https://rukminim2.flixcart.com/image/850/1000/jqwny4w0/poster/s/v/u/medium-spider-man-11-spider-man-poster-for-room-office-13-inch-x-original-imafctjenprfatgh.jpeg?q=90" alt="Card image cap">
       <div class="card-body">
-        <a href="./datail.html" class="btn btn-primary">Click to watch</a>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
     <div class="card bg-dark m-2" style="width: 14rem; ">
       <img class="card-img-top1" src="https://cdn.europosters.eu/image/750/posters/iron-man-one-sheet-i3287.jpg" alt="Card image cap">
       <div class="card-body">
-        <a href="./datail.html" class="btn btn-primary">Click to watch</a>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
     <div class="card bg-dark m-2" style="width: 14rem; ">
       <img class="card-img-top1" src="https://m.media-amazon.com/images/I/91OvFJTshpL.jpg" alt="Card image cap">
       <div class="card-body">
-        <a href="./datail.html" class="btn btn-primary">Click to watch</a>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
     <div class="card bg-dark m-2" style="width: 14rem; ">
       <img class="card-img-top1" src="https://www.film.ru/sites/default/files/styles/thumb_260x400/public/movies/posters/49531917-2423682.jpeg" alt="Card image cap">
       <div class="card-body">
-        <a href="./datail.html" class="btn btn-primary">Click to watch</a>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
     <div class="card bg-dark m-2" style="width: 14rem; ">
       <img class="card-img-top1" src="https://upload.wikimedia.org/wikipedia/ru/7/78/Gemini_Man.jpg" alt="Card image cap">
       <div class="card-body">
-        <a href="./datail.html" class="btn btn-primary">Click to watch</a>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
     <div class="card bg-dark m-2" style="width: 14rem; ">
       <img class="card-img-top1" src="https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/aa0c2887-2b9f-44bf-b7f2-516027c6b292/576x" alt="Card image cap">
       <div class="card-body">
-        <a href="./datail.html" class="btn btn-primary">Click to watch</a>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
+
+  
 
     <!-- Sign Up Modal -->
     <div

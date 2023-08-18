@@ -54,19 +54,18 @@
   padding: 0 15px;
 }
 
-/* Add this to your CSS file or style section */
 .accordion-body {
-  background-color: #333; /* Change this color as needed */
-  color: #fff; /* Text color on dark background */
+  background-color: #333;
+  color: #fff;
   padding: 10px;
 }
 .accordion-item {
-  background-color: #333; /* Change this color as needed */
-  color: #fff; /* Text color on dark background */
+  background-color: #333;
+  color: #fff;
   padding: 10px;
 }
 
 .accordion-button {
-  background-color: #333; /* Change this color as needed */
-  color: #0a0000; /* Text color on dark background */
+  background-color: #333;
+  color: white;
 }
